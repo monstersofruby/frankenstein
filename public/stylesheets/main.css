@@ -4,7 +4,7 @@ body,h1,h2,h3,p,a,input,textarea {
 }
 
 body {
-	min-width:800px;
+	min-width:1080px;
 	margin:20px;
 	background-color: #000;	
 }
@@ -14,9 +14,9 @@ input, textarea {
 }
 
 #navigation {
-	position:absolute;
-	left:900px;
-	top:50px;
+	left:625px;
+	position:relative;
+	top:-50px;
 }
 
 #logo {
@@ -31,6 +31,8 @@ input, textarea {
 	width:800px;
 	background-color:#FFF;
 	padding:0px 20px 20px;
+	background: #FFF url(/images/mor.png) no-repeat scroll bottom right;
+	padding-bottom:200px;
 }
 
 a, a:visited {
