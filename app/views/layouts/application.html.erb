@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Frankenstein Links</title>
+    <%= javascript_include_tag :defaults %>
+    <%= stylesheet_link_tag "main" %>
+  </head>
+  <body>
+    <div id="logo">
+      <img src="/images/frankenstein.jpg" alt="Frankenstein" />
+    </div>
+    <div id="main">
+      <h1>Frankenstein Links</h1>
+      <span id="navigation">
+        <%= link_to "Portada", root_path %> | <%= link_to "Añadir enlace", new_link_path %>
+      </span>
+      <%= yield %>
+    </div>
+  </body>
+</html>
